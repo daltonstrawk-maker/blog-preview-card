@@ -21,7 +21,6 @@ body {
   height: 450px;
   background-color: white;
   margin: auto;
-  border: 2px solid black;
   padding: 18px;
   object-fit: contain;
   border-radius: 18px;
@@ -51,6 +50,7 @@ body {
   background-color: hsl(47, 88%, 63%);
   padding: 4px;
   border-radius: 4px;
+  font-weight: 800;
 }
 
 .date {
@@ -65,6 +65,12 @@ body {
 .txt-title {
   font-size: 20px;
   font-weight: 800px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.txt-title:hover {
+  color: hsl(47, 88%, 63%);
 }
 
 .txt-content {
